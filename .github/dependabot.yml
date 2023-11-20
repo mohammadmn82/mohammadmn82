@@ -1,0 +1,11 @@
+# To get started with Dependabot version updates, you'll need to specify which
+# package ecosystems to update and where the package manifests are located.
+# Please see the documentation for all configuration options:
+# https://docs.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
+
+version: 2
+updates:
+  - package-ecosystem: "" # ./config.sh --url https://github.com/mohammadmn82/mohammadmn82 --token AM4BP4HRJXKFDU6MZ4RN7ELFLPSSQ
+    directory: "/" # tar xzf ./actions-runner-linux-arm64-2.311.0.tar.gz
+    schedule:
+      interval: "weekly"
